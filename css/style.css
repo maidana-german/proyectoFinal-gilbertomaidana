@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #042e27 ;
+}
+.contenedorCards{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  50px 150px 50px 50px 150px 50px 50px 150px 50px 50px 150px 50px 50px 150px 50px 50px 150px 50px 50px 150px 50px 50px 150px 50px 50px 150px 50px 50px 150px 50px;
+    grid-template-areas: 
+    "i1 i1 t1 t1 t1 c"
+    "i1 i1 d1 d1 d1 c"
+    "i1 i1 p1 b1 . c"
+
+    "i2 i2 t2 t2 t2 c"
+    "i2 i2 d2 d2 d2 c"
+    "i2 i2 p2 b2 . c"
+
+    "i3 i3 t3 t3 t3 c"
+    "i3 i3 d3 d3 d3 c"
+    "i3 i3 p3 b3 . c"
+
+    "i4 i4 t4 t4 t4 c"
+    "i4 i4 d4 d4 d4 c"
+    "i4 i4 p4 b4 . c"
+
+    "i5 i5 t5 t5 t5 c"
+    "i5 i5 d5 d5 d5 c"
+    "i5 i5 p5 b5 . c"
+
+    "i6 i6 t6 t6 t6 c"
+    "i6 i6 d6 d6 d6 c"
+    "i6 i6 p6 b6 . c"
+
+    "i7 i7 t7 t7 t7 c"
+    "i7 i7 d7 d7 d7 c"
+    "i7 i7 p7 b7 . c"
+
+    "i8 i8 t8 t8 t8 c"
+    "i8 i8 d8 d8 d8 c"
+    "i8 i8 p8 b8 . c"
+
+    "i9 i9 t9 t9 t9 c"
+    "i9 i9 d9 d9 d9 c"
+    "i9 i9 p9 b9 . c"
+
+    "i10 i10 t10 t10 t10 c"
+    "i10 i10 d10 d10 d10 c"
+    "i10 i10 p10 b10 . c";
+
+    gap: 10px;
+}
+
+.contenedorCards div{
+    width: 300px;
+    height: 300px;
+}
+.contenedorCards div img{
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+section ul li{
+    color: aliceblue;
+    font-size: large;
+}
+
+section p{
+    font-size: medium;
+}
+
+.contenedorCards div p{
+    text-align: center;
+    color: bisque;
+}
+
+button{
+    font-size: medium;
+    background-color: #b38c8f;
+    padding: 12px 12px;
+    border-radius: 15%;
+}
+button:hover{
+    background-color: #503335;
+    color: azure;
+    transform: scale(1.1);
+}
+
+.titulo-1{
+    grid-area: t1;
+}
+.imagen-1{
+    grid-area: i1;
+}
+.precio-1{
+    grid-area: p1;
+}
+.descripcion-1{
+    grid-area: d1;
+}
+.boton-1{
+    grid-area: b1;
+}
+
+.titulo-2{
+    grid-area: t2;
+}
+.imagen-2{
+    grid-area: i2;
+}
+.precio-2{
+    grid-area: p2;
+}
+.descripcion-2{
+    grid-area: d2;
+}
+.boton-2{
+    grid-area: b2;
+}
+
+.titulo-3{
+    grid-area: t3;
+}
+.imagen-3{
+    grid-area: i3;
+}
+.precio-3{
+    grid-area: p3;
+}
+.descripcion-3{
+    grid-area: d3;
+}
+.boton-3{
+    grid-area: b3;
+}
+
+.titulo-4{
+    grid-area: t4;
+}
+.imagen-4{
+    grid-area: i4;
+}
+.precio-4{
+    grid-area: p4;
+}
+.descripcion-4{
+    grid-area: d4;
+}
+.boton-4{
+    grid-area: b4;
+}
+
+.titulo-5{
+    grid-area: t5;
+}
+.imagen-5{
+    grid-area: i5;
+}
+.precio-5{
+    grid-area: p5;
+}
+.descripcion-5{
+    grid-area: d5;
+}
+.boton-5{
+    grid-area: b5;
+}
+
+.titulo-6{
+    grid-area: t6;
+}
+.imagen-6{
+    grid-area: i6;
+}
+.precio-6{
+    grid-area: p6;
+}
+.descripcion-6{
+    grid-area: d6;
+}
+.boton-6{
+    grid-area: b6;
+}
+
+.titulo-7{
+    grid-area: t7;
+}
+.imagen-7{
+    grid-area: i7;
+}
+.precio-7{
+    grid-area: p7;
+}
+.descripcion-7{
+    grid-area: d7;
+}
+.boton-7{
+    grid-area: b7;
+}
+
+.titulo-8{
+    grid-area: t8;
+}
+.imagen-8{
+    grid-area: i8;
+}
+.precio-8{
+    grid-area: p8;
+}
+.descripcion-8{
+    grid-area: d8;
+}
+.boton-8{
+    grid-area: b8;
+}
+
+.titulo-9{
+    grid-area: t9;
+}
+.imagen-9{
+    grid-area: i9;
+}
+.precio-9{
+    grid-area: p9;
+}
+.descripcion-9{
+    grid-area: d9;
+}
+.boton-9{
+    grid-area: b9;
+}
+
+.titulo-10{
+    grid-area: t10;
+}
+.imagen-10{
+    grid-area: i10;
+}
+.precio-10{
+    grid-area: p10;
+}
+.descripcion-10{
+    grid-area: d10;
+}
+.boton-10{
+    grid-area: b10;
+}
+.carritoCompras{
+    grid-area: c;
+    color: aliceblue;
+}
+.carritoCompras p{
+    font-size: x-large;
+}
