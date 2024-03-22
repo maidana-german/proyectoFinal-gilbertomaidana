@@ -211,35 +211,18 @@ function renderizarCarrito() {
     carritoElemt.forEach(elemento => {
 
 
-            const lista = document.createElement('li');
-            lista.textContent = `${elemento.title} cant: ${elemento.cant}`;
-            const listaClass = 'listaClass-' + elemento.id;
-            lista.classList.add(listaClass);
-            carrito.appendChild(lista);
-
-
-            //inicio de lo agregado
-            const checkProd = elemento.title;
-            const chequear = carritoElemt.some((el) => el.title === checkProd);
-            if(chequear){
-                if(elemento.cant > 1){
-                    const listaClassCount = elemento.id;
-                    console.log(`cantidad mayor a 1, el valor del id del elemento repetido es ${listaClassCount}`);
-                    
-/*                     const lista2 = document.createElement('li');
-                    lista2.textContent = `${elemento.title} cant: ${elemento.cant}`;
-                    const listaClass2 = 'listaClass-' + elemento.id;
-                    lista2.classList.add(listaClass2);
-                    // carrito.appendChild(lista2); */
-
-                }
-                
-            }
-            //fin de lo agregado
+        const lista = document.createElement('li');
+        lista.textContent = `${elemento.title} cant: ${elemento.cant}`;
+        const listaClass = 'listaClass-' + elemento.id;
+        lista.classList.add(listaClass);
+        carrito.appendChild(lista);
 
 
 
-        })
+
+
+
+    })
     carritoTotalElem.textContent = carritoTotal.toFixed(2);
 }
 
